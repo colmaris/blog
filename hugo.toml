@@ -18,9 +18,9 @@ defaultContentLang = "fr"
   url = "about/"
 
   [[params.navlinks]]
-  name = "posts/"
+  name = "blog/"
   url = "posts/"
   
   [[params.navlinks]]
-  name = "photos/"
+  name = "photographie/"
   url = "photos/"

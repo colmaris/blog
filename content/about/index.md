@@ -1,79 +1,24 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "About"
+title = "A PROPOS"
 +++
 
-A minimal and responsive Hugo theme inspired by the system console, crafted for optimal performance with an average page load time of under one second.
+Moi c’est Draconis geek depuis que je suis tombé dans la marmite. Je suis passionné d’informatique, de nouvelles technologies, de jeux-vidéos et de la culture geek en générale. Lorsque je ne suis pas sur mon clavier, je suis derrière mon objectif photo essayant de capturer ma vision du monde. Je suis un fervent partisan du fais le toi-même, tu possèdes la connaissance, les compétences ou simplement l’envie, pourquoi se priver ? Utilisateur de Linux depuis 1998, je ne suis pas un extrémiste du libre, chacun utilise l’informatique comme il l’entend et en fonction des ses besoins. Je vous laisse me découvrir à travers mes deux moyens d'expressions mon blog et mes photos.
 
-Theme is based on a modern and minimal [Terminal CSS](https://terminalcss.xyz/) framework. 
+# BLOG
 
-![Console](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true)
+Ce blog est un moyen pour moi de relier mes différents centres d’intérêts et passions. Et surtout le plus important pour moi, de partager, sans le partage nous ne sommes rien. Il me sert de bloc-notes, de mémos, à m'exprimer librement, partager mes passions ou d'en discuter autour d'une bonne bière. Ici on parlera, jeux-vidéos, linux, figurines, DIY, et plus si affinité.
+Ce blog est entièrement auto-hébergé, preuve que cela fonctionne, il est en ligne depuis mars 2011. Pour la technique il s'agit d'un container fonctionnant sur LXC avec DEBIAN comme OS principal. Il est fièrement propulsé par Hugo, Nginx, Let's encrypt et votre serviteur !
 
-## Live demo
+# MENTIONS LEGALES
 
-* [https://mrmierzejewski.com/hugo-theme-console/](https://mrmierzejewski.com/hugo-theme-console/)
+Sauf mentions contraires, je suis l’unique auteur du contenu de ce blog et je me réserve un droit total sur tout son contenu. Ce blog utilise n'utilise aucun cookies ou outils de pistage. Je n'aime pas être pisté par les sites que je visite donc je respecte cet adage : Ne fais pas aux autres ce que tu ne voudrais pas qu'on te fasse. Sauf indications contraires le contenu de se site est mis à disposition selon les termes de la [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.fr).
 
-## Installation
 
-From the root of your Hugo site, clone the theme into ```themes/hugo-theme-console``` by running :
+Pour utiliser son contenu :
 
-```
-$ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console
-```
-    
-See the [Hugo documentation](https://gohugo.io/hugo-modules/theme-components/) for more information.
+* **Les photos publiées dans la rubrique *photographie* ne sont pas libres de droits, tous droits réservés.**
+* vous devez me créditer, intégrer un lien vers la page en question et indiquer si des modifications ont été effectuées.
+* vous n’êtes pas autorisé à faire un usage commercial du contenu de ce site.
+* vous devez diffuser votre contenu dans les mêmes conditions, que vous ayez effectué des modifications ou non au contenu original.
 
-## Configuration
-
-Set theme parameter in your config file:
-
-```
-theme = "hugo-theme-console"
-```
-
-## Quick start
-
-After installation, take a look in the `exampleSite` folder at. This directory contains an example config file and the content for the demo.
-
-```
-  exampleSite
-  ├── config.toml
-  ├── content
-  │   ├── about
-  │   │   └── index.md
-  │   └── photos
-  │   │   └── arizona-us
-  │   │       ├── arizona-us.jpg
-  │   │       └── index.md
-  │   └── posts
-  │       └── introduction
-  │           └── index.md
-  ├── layouts
-  │
-  └── static
-```
-
-Copy at least the `config.toml` in the root directory of your website. Overwrite the existing config file if necessary.
-
-Hugo includes a development server, so you can view your changes as you go -
-very handy. Spin it up with the following command:
-
-```
-hugo serve
-```
-
-Now you can go to [http://localhost:1313](http://localhost:1313) and the theme should be visible.
-
-## Example Site
-
-To run the example site, please type the following command.
-
-```
-make hugo-server
-```
-
-## License
-
-Copyright © 2024 [Marcin Mierzejewski](https://mrmierzejewski.com/)
-
-The theme is released under the MIT License. Check the [original theme license](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information.
