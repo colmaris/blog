@@ -1,4 +1,4 @@
-baseurl = "https://example.com/"
+baseurl = "https://colmaris.fr"
 title = "colmaris"
 theme = "hugo-theme-console"
 languageCode = 'fr-FR'
