@@ -1,5 +1,5 @@
 baseurl = "https://example.com/"
-title = "console-demo"
+title = "colmaris"
 theme = "hugo-theme-console"
 languageCode = 'fr-FR'
 defaultContentLanguage = "fr"
@@ -14,7 +14,7 @@ defaultContentLang = "fr"
   animateStyle = "animated zoomIn fast" 
 
   [[params.navlinks]]
-  name = "about/"
+  name = "infos/"
   url = "about/"
 
   [[params.navlinks]]
