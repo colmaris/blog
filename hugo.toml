@@ -89,7 +89,7 @@ pygmentscodefencesguesssyntax = true
   url = "about/"
 
   [[params.navlinks]]
-  name = "blog/"
+  name = "notes/"
   url = "posts/"
   
   [[params.navlinks]]
