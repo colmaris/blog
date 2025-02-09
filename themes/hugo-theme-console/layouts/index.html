@@ -7,7 +7,7 @@ Bienvenue sur mon blog personnel,<a href="about/">infos.</a>
 </p>
 <br/>
 
-<h1>Latest posts</h1>
+<h1>Sur le blog</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
@@ -23,7 +23,23 @@ Bienvenue sur mon blog personnel,<a href="about/">infos.</a>
 {{ end }}
 </div>
 
-<h1>Latest photos</h1>
+<h1>Au jardin</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/jardin" }}
+    {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ $mymonths := index $.Site.Data.moisshort }}{{ .Date.Day }} {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+</div>
+
+<h1>Dernières photos</h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}
