@@ -16,29 +16,25 @@ C'est aussi une première pour les tomates Roma, chaque année nous avions l'hab
 
 Les semis semés au mois Janvier commence et sortir de terre, ainsi j'ai l'honneur d'avoir une petit forêt de poireau d'hiver de Saint Victor. 
 
-[![poireau](/img/jardin/fevrier25/foret-poireau-thumb.jpg)](/img/jardin/fevrier25/foret-poireau.jpg)
-*Forêt de Saint Victor*
+{{< gallery >}}
+  {{< figure src="img/jardin/fevrier25/foret-poireau-thumb.jpg" caption="Forêt de Saint Victor" >}}
+  {{< figure src="img/jardin/fevrier25/laitues.jpg" caption="Laitues à couper chêne blonde">}}
+{{< /gallery >}}
 
-Mes laitues à couper chêne blonde commencent elles aussi à prendre leur forme définitive attendant patiament d'être installées au jardin durant le mois mars. Je suis aussi dans l'attente de la germination mes pommes de terre. Pour rester dans la germination je me suis lancé dans la patate douce, instalée bien au chaud dans la véranda. 
+Mes laitues à couper chêne blonde commencent elles aussi à prendre leur forme définitive attendant patiament d'être installées au jardin durant le mois mars. Je suis aussi dans l'attente de la germination mes pommes de terre. Pour rester dans la germination je me suis lancé dans la patate douce, instalée bien au chaud dans la véranda.
 
-[![laitues](/img/jardin/fevrier25/laitues.jpg)](/img/jardin/fevrier25/laitues.jpg)
-*Laitues à couper chêne blonde*
-
-[![pattatedouce](/img/jardin/fevrier25/pattatedouce.jpg)](/img/jardin/fevrier25/pattatedouce.jpg)
-*Pataes Douces*
-
-[![ppommeterre](/img/jardin/fevrier25/pommeterre.jpg)](/img/jardin/fevrier25/pommeterre.jpg)
-*Germination en cours*
+{{< gallery >}}
+  {{< figure src="img/jardin/fevrier25/pattatedouce.jpg" caption="Pataes Douces" >}}
+  {{< figure src="img/jardin/fevrier25/pommeterre.jpg" caption="Germination en cours">}}
+{{< /gallery >}}
 
 En préparant la parcelle de pommes de terre j'ai eu l'heureuse surprise de trouver un jeune pousse d'Amandier. Le champs justaposant la maison en possède quelques-un, je pense qu'il provient de là. Je l'ai délicatement détérré pour le rempoter au chaud dans la serre, où je vais le laisser grandrir en attendant de le mettre au jardin.
 
-[![amandier](/img/jardin/fevrier25/amandier.jpg)](/img/jardin/fevrier25/amandier.jpg)
-*Mon petit amandier*
+{{< figure src="img/jardin/fevrier25/amandier.jpg" link="img/jardin/fevrier25/amandier.jpg" caption="Mon petit amandier" >}}
 
 Mes arômatiques semés au mois de novembre se portent très bien, ils poussent tellement vite j'en suis déjà à mon troisème rempotage.
 
-[![aromatiques](/img/jardin/fevrier25/aromatiques.jpg)](/img/jardin/fevrier25/aromatiques.jpg)
-*Ciboulette, Aneth, Coriandre*
+{{< figure src="img/jardin/fevrier25/aromatiques.jpg" link="img/jardin/fevrier25/aromatiques.jpg" caption="Ciboulette, Aneth, Coriandre" >}}
 
 Pour conclure le mois Février est dans la continuité du mois précédent, la Patience est le maître mot.
 
