@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://colmaris.fr"
 theme = ["hugo-ficurinia", "hugo-shortcode-gallery"]
 title = "Colmaris's Blog"
 languageCode = "fr-FR"
