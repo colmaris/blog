@@ -1,5 +1,0 @@
-<!-- This code will be injected before closing the head tag -->
-<a rel="me" href="https://gts.colmaris.fr/@colmaris"></a>
-{{ with .OutputFormats.Get "rss" -}}
-  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
-{{ end }}
