@@ -5,6 +5,12 @@ tags:
   - tag1
   - tag2
   - tag3
-image:
+draft: true
+author: "Colmaris"
+description: "Jour 006/100 du défi 100DaysToOffLoad."
+categories:
+  - cat1
+series: serie
+aliases: alias
+toc: true
 ---
-
