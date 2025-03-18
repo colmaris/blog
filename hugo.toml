@@ -66,7 +66,7 @@ url = "https://video.colmaris.fr"
   [[menu.main]]
     identifier = "jardin"
     name = "Jardin"
-    url = "/jardin/"
+    url = "/categories/jardin/"
     weight = 2
   [[menu.main]]
     identifier = "notes"
@@ -76,8 +76,13 @@ url = "https://video.colmaris.fr"
   [[menu.main]]
     identifier = "photo"
     name = "photo"
-    url = "/photo/"
+    url = "/categories/photo/"
     weight = 4
+  [[menu.main]]
+    identifier = "the100pics"
+    name = "the100pics"
+    url = "/the100pics/"
+    weight = 5
 
 [taxonomies]
 category = "categories"
