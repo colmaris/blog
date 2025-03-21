@@ -10,7 +10,5 @@ author: "Colmaris"
 description: "Jour 006/100 du défi 100DaysToOffLoad."
 categories:
   - cat1
-series: serie
-aliases: alias
 toc: true
 ---

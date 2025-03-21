@@ -1,0 +1,122 @@
+baseURL = "https://colmaris.fr"
+theme = ["hugo-blog-awesome", "hugo-shortcode-gallery"]
+title = "Colmaris's Blog"
+author = "Colmaris"
+copyright = "© 2025 [Colmaris](https://colmaris.fr) Ce site est sous licence [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr). Les photos ne sont pas libre de droit."
+languageCode = "fr-FR"
+defaultContentLanguage = "fr"
+pygmentsstyle = "nordic"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+pluralizeListTitles = false
+timeout = 60000
+# Automatically add content sections to main menu
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "tender"
+
+# Sidebar: about/bio
+[params.about]
+title = "Colmaris"
+description = "Un geek qui a grandi avec internet."
+# unicode/emoji logo:
+#logo = "🍚"
+# or use an image:
+logo_image = "/favicon.svg"
+
+# Sidebar: social links
+# Available icon sets:
+# * FontAwesome 6 <https://fontawesome.com/> ('fa-brands', 'fa-normal', or 'fa-solid' for brands)
+# * Academicons <https://jpswalsh.github.io/academicons> ('ai ai-')
+
+[[params.socialLinks]]
+icon = "fa-solid fa-house"
+title = "Accueil"
+url = "https://colmaris.fr"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/colmaris"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-mastodon"
+title = "Mastodon"
+url = "https://gts.colmaris.fr"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-play"
+title = "Peertube"
+url = "https://video.colmaris.fr"
+
+[menu]
+  [[menu.main]]
+    identifier = "post"
+    name = "Blog"
+    url = "/post/"
+    weight = 1
+  [[menu.main]]
+    identifier = "jardin"
+    name = "Jardin"
+    url = "/categories/jardin/"
+    weight = 2
+  [[menu.main]]
+    identifier = "notes"
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+  [[menu.main]]
+    identifier = "photo"
+    name = "photo"
+    url = "/categories/photo/"
+    weight = 4
+  [[menu.main]]
+    identifier = "the100pics"
+    name = "the100pics"
+    url = "/the100pics/"
+    weight = 5
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
