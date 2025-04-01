@@ -16,3 +16,8 @@
   
   <!-- Mastodon-->
   <a rel="me" href="https://gts.colmaris.fr/@colmaris"></a>
+
+  <!-- Auteur Mastodon -->
+  {{ with .Site.Params.fediverse_creator }}
+  <meta name="fediverse:creator" content="{{ . }}" />
+  {{ end }}

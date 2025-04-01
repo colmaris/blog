@@ -12,7 +12,8 @@ enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
 # traditional way: theme component resides in directory 'themes' 
-theme = ["hugo-blog-awesome", "hugo-shortcode-gallery"]
+theme = ["hugo-blog-awesome", "hugo-shortcode-gallery"] 
+
 
 # modern way: pull in theme component as hugo module
 #[module]
@@ -90,6 +91,7 @@ theme = ["hugo-blog-awesome", "hugo-shortcode-gallery"]
 
 [Languages.fr-fr.params]
   sitename = "Colmaris"
+   fediverse_creator = "@colmaris@gts.colmaris.fr"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
