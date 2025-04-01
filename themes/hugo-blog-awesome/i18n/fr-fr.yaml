@@ -25,3 +25,15 @@
 
 - id: "errors.404_description"
   translation: "Vous avez suivi une adresse qui n'existe pas."
+
+- id: "Comments"
+  translation: "Commentaires"
+
+- id: "Use_fediverse_account"
+  translation: 'Vous pouvez répondre sur <strong><a class="link" href="https://{{ .host }}/@{{ .username }}/{{ .id }}">Mastodon !</a></strong>'
+  
+- id: "Load_comments"
+  translation: "Charger les commentaires"
+
+- id: "No_comment"
+  translation: "Pas encore de commentaire, soyez le premier à réagir !"

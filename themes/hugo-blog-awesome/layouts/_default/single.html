@@ -16,6 +16,7 @@
             <div class="page-content">
                 {{ .Content }}
             </div>
+            {{ partial "masto-comments.html" . }}
         </article>
         {{- partial "comments.html" . -}}
     </main>
